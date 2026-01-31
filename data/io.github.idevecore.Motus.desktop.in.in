@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=motus
+Exec=motus
+Icon=io.github.idevecore.Motus
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=GTK;
+StartupNotify=true
+DBusActivatable=true

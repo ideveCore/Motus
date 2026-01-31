@@ -1,0 +1,14 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+
+data/io.github.idevecore.Motus.appdata.xml.in.in
+data/io.github.idevecore.Motus.desktop.in.in
+data/io.github.idevecore.Motus.gschema.xml.in
+src/components/shortcuts/shortcuts.blp
+src/components/shortcuts/shortcuts.py
+src/pages/main/main.py
+src/pages/main/index.blp
+src/main.py
+src/window.blp
+src/window.py
+src/define.in

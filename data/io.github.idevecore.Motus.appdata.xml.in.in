@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>@app-id@</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <name>Motus</name>
+  <summary>Manage vehicles, costs, and maintenance of your fleet with ease.</summary>
+  <description>
+    <p>Motus is a fleet management application that allows you to track vehicles, fuel usage, maintenance, and costs in a simple and organized way, helping you monitor fleet performance and make more efficient day-to-day decisions.</p>
+  </description>
+
+  <developer id="tld.vendor">
+    <name>Ideve Core</name>
+  </developer>
+
+  <!-- Required: Should be a link to the upstream homepage for the component -->
+  <url type="homepage">https://github.com/ideveCore/motus</url>
+  <!-- Recommended: It is highly recommended for open-source projects to display the source code repository -->
+  <url type="vcs-browser">https://github.com/ideveCore/motus</url>
+  <!-- Should point to the software's bug tracking system, for users to report new bugs -->
+  <url type="bugtracker">https://github.com/ideveCore/motus/issues</url>
+  <!-- Should link a FAQ page for this software, to answer some of the most-asked questions in detail -->
+  <!-- URLs of this type should point to a webpage where users can submit or modify translations of the upstream project -->
+  <url type="translate">https://hosted.weblate.org/engage/motus</url>
+  <url type="faq">https://github.com/ideveCore/motus</url>
+  <!-- Should provide a web link to an online user's reference, a software manual or help page -->
+  <url type="help">https://github.com/ideveCore/motus</url>
+  <!-- URLs of this type should point to a webpage showing information on how to donate to the described software project -->
+  <url type="donation">https://github.com/ideveCore/motus</url>
+  <!-- This could for example be an HTTPS URL to an online form or a page describing how to contact the developer -->
+  <url type="contact">https://github.com/ideveCore/motus</url>
+  <!-- URLs of this type should point to a webpage showing information on how to contribute to the described software project -->
+  <url type="contribute">https://github.com/ideveCore/motus</url>
+
+  <translation type="gettext">motus</translation>
+  <!-- All graphical applications having a desktop file must have this tag in the MetaInfo.
+     If this is present, appstreamcli compose will pull icons, keywords and categories from the desktop file. -->
+  <launchable type="desktop-id">@app-id@.desktop</launchable>
+  <!-- Use the OARS website (https://hughsie.github.io/oars/generate.html) to generate these and make sure to use oars-1.1 -->
+  <content_rating type="oars-1.1" />
+
+  <!-- Applications should set a brand color in both light and dark variants like so -->
+  <branding>
+    <color type="primary" scheme_preference="light">#ff00ff</color>
+    <color type="primary" scheme_preference="dark">#993d3d</color>
+  </branding>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://example.org/example1.png</image>
+      <caption>A caption</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://example.org/example2.png</image>
+      <caption>A caption</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="1.0.1" date="2026-01-31">
+      <url type="details">https://github.com/ideveCore/motus</url>
+      <description translate="no">
+        <p>Initial Version</p>
+        <ul>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+</component>

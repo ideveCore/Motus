@@ -1,0 +1,20 @@
+using Gtk 4.0;
+
+template $Shortcuts : ShortcutsWindow {
+  modal: true;
+  ShortcutsSection {
+    section-name: "shortcuts";
+    max-height: 10;
+    ShortcutsGroup {
+      title: C_("shortcuts window", "General");
+      ShortcutsShortcut {
+        title: C_("shortcuts window", "Keyboard shortcuts");
+        action-name: "win.show-help-overlay";
+      }
+      ShortcutsShortcut {
+        title: C_("shortcuts window", "Quit");
+        action-name: "app.quit";
+      }
+    }
+  }
+}
