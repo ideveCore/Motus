@@ -4,5 +4,9 @@
     <file preprocess="xml-stripblanks">window.ui</file>
     <file preprocess="xml-stripblanks">components/shortcuts/shortcuts.ui</file>
     <file preprocess="xml-stripblanks">pages/main/index.ui</file>
+    <file alias="data/seeds/vehicle_type.json" compressed="true">data/seeds/vehicle_type.json</file>
+    <file alias="data/seeds/brand.json" compressed="true">data/seeds/brand.json</file>
+    <file alias="data/seeds/fuel_type.json" compressed="true">data/seeds/fuel_type.json</file>
+    <file alias="data/seeds/fuel.json" compressed="true">data/seeds/fuel.json</file>
   </gresource>
 </gresources>

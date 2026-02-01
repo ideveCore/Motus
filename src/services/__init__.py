@@ -1,4 +1,4 @@
-# main.py
+# __init__.py
 #
 # Copyright 2026 Ideve Core
 #
@@ -15,24 +15,5 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
-# SPDX-License-Identifier: GPL-3.0-or-later
 
-import gi
-from typing import Any, Dict, Union
-
-gi.require_version("Adw", "1")
-gi.require_version("Gtk", "4.0")
-
-from gi.repository import Adw, Gio, Gtk
-from ...define import RES_PATH
-from ...services import VehicleService
-
-resource = f"{RES_PATH}/pages/main/index.ui"
-
-def main_page(application: Adw.Application):
-  builder = Gtk.Builder.new_from_resource(resource)
-  page = builder.get_object("toast_overlay")
-  vehicle_service = VehicleService()
-  print(vehicle_service.all())
-
-  return page
+from .vehicle_service import VehicleService

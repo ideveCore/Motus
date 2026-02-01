@@ -1,0 +1,8 @@
+[
+  { "name": "Gasoline", "fuel_type_id": "__REF__:fuel_type:Gasoline" },
+  { "name": "Gasoline Premium", "fuel_type_id": "__REF__:fuel_type:Gasoline" },
+  { "name": "Diesel S10", "fuel_type_id": "__REF__:fuel_type:Diesel" },
+  { "name": "Diesel S500", "fuel_type_id": "__REF__:fuel_type:Diesel" },
+  { "name": "Ethanol", "fuel_type_id": "__REF__:fuel_type:Alcohol" },
+  { "name": "Electric", "fuel_type_id": "__REF__:fuel_type:Electric" }
+]

@@ -27,6 +27,7 @@ from gi.repository import Adw, GObject, Gio, GLib, Gtk
 from .utils import Utils
 from .window import create_main_window
 from .actions import application_actions
+from .db import Database, run_migrations
 
 from .define import APP_ID, VERSION, RES_PATH
 
@@ -34,14 +35,22 @@ class Application(Adw.Application):
   """The main application singleton class."""
 
   def __init__(self):
-    Adw.ApplicationWindow.__init__(
+    Adw.Application.__init__(
       self,
       application_id=APP_ID,
       resource_base_path=RES_PATH,
       flags=Gio.ApplicationFlags.DEFAULT_FLAGS
     )
+
     self.utils = Utils(APP_ID)
     application_actions(application=self)
+
+  def do_startup(self):
+    Adw.Application.do_startup(self)
+
+    # Inicializa banco e garante schema
+    db = Database.get()
+    run_migrations(db)
 
   def do_activate(self):
     if self.get_active_window() is not None:

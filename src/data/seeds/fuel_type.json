@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Gasoline",
+    "description": "Combustíveis derivados do petróleo usados em motores de ignição por centelha"
+  },
+  {
+    "name": "Diesel",
+    "description": "Combustíveis usados principalmente em motores de ignição por compressão"
+  },
+  {
+    "name": "Alcohol",
+    "description": "Combustíveis de origem alcoólica, geralmente renováveis"
+  },
+  {
+    "name": "Gas",
+    "description": "Combustíveis gasosos utilizados em veículos adaptados"
+  },
+  {
+    "name": "Electric",
+    "description": "Energia elétrica armazenada em baterias"
+  },
+  {
+    "name": "Hybrid",
+    "description": "Combinação de combustível líquido e energia elétrica"
+  }
+]

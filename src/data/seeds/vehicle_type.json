@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Car",
+    "description": "Standard passenger vehicle",
+    "category": "Passenger",
+    "typical_use": "Personal and urban transportation",
+    "average_size": "Medium",
+    "common_features": "4 doors, air conditioning, trunk",
+    "classification": "Light"
+  },
+  {
+    "name": "Motorcycle",
+    "description": "Two-wheeled motor vehicle",
+    "category": "Passenger",
+    "typical_use": "Fast and economical transportation",
+    "average_size": "Small",
+    "common_features": "2 wheels, low fuel consumption",
+    "classification": "Light"
+  },
+  {
+    "name": "Pickup Truck",
+    "description": "Light-duty truck with open cargo area",
+    "category": "Utility",
+    "typical_use": "Light cargo and mixed personal use",
+    "average_size": "Medium",
+    "common_features": "Open bed, higher suspension",
+    "classification": "Light"
+  },
+  {
+    "name": "Van",
+    "description": "Medium-sized utility vehicle",
+    "category": "Utility",
+    "typical_use": "Cargo or passenger transport",
+    "average_size": "Medium",
+    "common_features": "Large interior space",
+    "classification": "Medium"
+  },
+  {
+    "name": "Truck",
+    "description": "Heavy-duty cargo transport vehicle",
+    "category": "Cargo",
+    "typical_use": "Long-distance freight transport",
+    "average_size": "Large",
+    "common_features": "Multiple axles, high load capacity",
+    "classification": "Heavy"
+  },
+  {
+    "name": "Bus",
+    "description": "Public or private passenger transport vehicle",
+    "category": "Transport",
+    "typical_use": "Urban or intercity passenger transport",
+    "average_size": "Large",
+    "common_features": "High passenger capacity",
+    "classification": "Heavy"
+  },
+  {
+    "name": "Minibus",
+    "description": "Smaller bus for short routes",
+    "category": "Transport",
+    "typical_use": "Shuttle and short-distance routes",
+    "average_size": "Medium",
+    "common_features": "15–30 passenger capacity",
+    "classification": "Medium"
+  },
+  {
+    "name": "SUV",
+    "description": "Sport Utility Vehicle",
+    "category": "Passenger",
+    "typical_use": "Family and mixed terrain driving",
+    "average_size": "Medium",
+    "common_features": "Higher ground clearance, large cabin",
+    "classification": "Light"
+  },
+  {
+    "name": "Tractor",
+    "description": "Agricultural or industrial vehicle",
+    "category": "Industrial",
+    "typical_use": "Agricultural and heavy-duty work",
+    "average_size": "Large",
+    "common_features": "High torque, low speed",
+    "classification": "Heavy"
+  },
+  {
+    "name": "Trailer",
+    "description": "Non-motorized cargo vehicle",
+    "category": "Cargo",
+    "typical_use": "Cargo transport when attached to a vehicle",
+    "average_size": "Large",
+    "common_features": "Requires towing vehicle",
+    "classification": "Heavy"
+  }
+]

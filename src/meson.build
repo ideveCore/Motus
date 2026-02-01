@@ -59,3 +59,9 @@ install_subdir('components', install_dir: moduledir)
 
 # ===== Install page sources =====
 install_subdir('pages', install_dir: moduledir)
+
+# ===== Install db sources =====
+install_subdir('db', install_dir: moduledir)
+
+# ===== Install services sources =====
+install_subdir('services', install_dir: moduledir)
